@@ -1,3 +1,17 @@
+## 📊 Visual Overview of Machine Learning Concepts
+
+Below is a combined visual showing examples of:
+
+- Confusion matrices  
+- Feature importance  
+- Dimensionality reduction (PCA, t-SNE, UMAP)  
+- Regression results  
+
+<p align="center">
+  <img src="sample_outputs/visuals/ml_visual_overview.png" width="700">
+</p>
+
+
 # machine-learning-python
 This repository contains a curated collection of machine learning projects completed as part of the Machine Learning in Python specialization.
 It demonstrates practical model development skills across:
