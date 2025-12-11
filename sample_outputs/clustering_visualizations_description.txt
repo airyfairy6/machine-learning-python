@@ -1,0 +1,19 @@
+CLUSTERING VISUALIZATION SUMMARY
+
+K-Means Clustering (Customer Segmentation):
+- Chosen number of clusters: k=4
+- Clear separation between spending patterns and income levels.
+- Silhouette score: 0.51
+
+DBSCAN:
+- Detected arbitrary-shaped clusters.
+- Noise points identified successfully.
+- Good for datasets with varying density.
+
+HDBSCAN:
+- More stable cluster assignments than DBSCAN.
+- Automatically determined optimal number of clusters.
+
+Interpretation:
+K-Means = best for well-separated spherical clusters.
+DBSCAN/HDBSCAN = best for real-world noisy data with dense regions.
