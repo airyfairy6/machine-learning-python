@@ -1,0 +1,13 @@
+CONFUSION MATRIX EXAMPLES
+
+Logistic Regression:
+[[89 11]
+ [14 76]]
+
+Decision Tree:
+[[92 8]
+ [10 80]]
+
+Interpretation:
+- True Positives: Model correctly detected positive cases.
+- False Negatives: Model missed some positive cases (important in fraud detection).
