@@ -1,0 +1,19 @@
+REGRESSION RESULTS (SUMMARY)
+
+Simple Linear Regression:
+- Strong positive linear relationship observed.
+- RMSE: ~5.2
+- R² score: ~0.68
+
+Multiple Linear Regression:
+- RMSE improved vs simple regression.
+- R² score: ~0.74
+- Multicollinearity observed, resolved by regularization.
+
+Regularization (Lasso/Ridge):
+- Ridge reduced variance and stabilized coefficients.
+- Lasso set several coefficients to zero (feature selection).
+
+Regression Tree (Taxi Tip Prediction):
+- Captured nonlinear relationships.
+- Feature importance: Total Fare, Passenger Count, Trip Distance.
