@@ -1,0 +1,23 @@
+FEATURE IMPORTANCE EXAMPLES
+
+Random Forest (Classification):
+1. Age
+2. Credit Score
+3. Income
+4. Transaction Frequency
+
+XGBoost:
+1. Credit Score
+2. Total Spending
+3. Risk Factor
+4. Number of Late Payments
+
+Regression Tree (Taxi Tip Prediction):
+1. Fare Amount
+2. Trip Distance
+3. Passenger Count
+4. Time of Day
+
+Interpretation:
+Tree-based models successfully identified key predictive features,
+supporting model interpretability for stakeholders.
