@@ -1,0 +1,19 @@
+DIMENSIONALITY REDUCTION RESULTS
+
+PCA:
+- PC1 explained 42% of the variance.
+- PC2 explained 18% of the variance.
+- Useful for understanding the strongest drivers in the data.
+
+t-SNE:
+- Revealed well-separated clusters not visible in PCA.
+- Sensitive to perplexity parameter.
+
+UMAP:
+- Best global + local structure preservation.
+- Clear cluster separation with minimal noise.
+
+Interpretation:
+PCA = good for linear compression.
+t-SNE = good for visualization of small, separated clusters.
+UMAP = best overall technique for visualizing high-dimensional data.
