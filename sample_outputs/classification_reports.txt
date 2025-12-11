@@ -1,0 +1,26 @@
+CLASSIFICATION MODEL METRICS
+
+Logistic Regression:
+Accuracy: 0.84
+Precision: 0.81
+Recall: 0.79
+F1-score: 0.80
+
+KNN Classifier:
+Accuracy: 0.82
+Best k found via grid search: k=7
+
+Decision Trees:
+Depth=5 performed best.
+Accuracy: 0.86
+Overfitting observed at depth > 7.
+
+SVM:
+Linear kernel performed well.
+Accuracy: 0.88
+Best C parameter: 1.0
+
+Fraud Detection (Imbalanced Dataset):
+AUC-ROC: 0.92
+Precision-Recall AUC: 0.75
+SMOTE used to balance training set.
